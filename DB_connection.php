@@ -3,7 +3,7 @@
 $sName = "localhost";
 $uName = "root";
 $pass  = "1234";
-$db_name = "task_management_db";
+$db_name = "task-management-db";
 
 try {
     $conn = new PDO("mysql:host=$sName;dbname=$db_name", $uName, $pass);

@@ -23,7 +23,8 @@
             <div class="alert alert-success" role="alert">
                 <?php echo stripcslashes($_GET['success']); ?>
             </div>
-        <?php } ?>
+        <?php }   
+        ?>
 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">User name</label>
